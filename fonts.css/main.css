@@ -159,17 +159,15 @@ hr {
 }
 
 #onas {
-
-	background: url(../img/fon4.png) no-repeat center top;
 	margin-top: 50px;
 	padding-top: 20px;
-	min-height: 1500px;
-	min-height: 500px;
 	text-align: center;
 	background-attachment: relative;
 	background-position: center center;
 
 	background-size: 100%;
+	padding-bottom: 150px;
+
 }
 
 #onas h2 {
