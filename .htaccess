@@ -1,7 +1,7 @@
 <IfModule mod_rewrite.c>
     RewriteEngine on
     RewriteBase /
-    RewriteCond %{HTTPS_HOST} ^www.game0js0.github.io
+    RewriteCond %{HTTP_HOST} ^www.game0js0.github.io
     RewriteRule (.*) https:game0js0.github.io/$1 [R=301,L]
     RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index/.html\ HTTPS/
     RewriteRule ^index\.html$ https://127.0.0.1:8080 [R=301,L]
