@@ -45,6 +45,34 @@
      			<div class="col-lg-8 col-lg-offset-2">
      				<h1>Game.js</h1>
      				<h2>Студия по разработке игр</h2>
+                    <br>
+                    <input type="button" onclik="notifSet ()" value="Вы хотите получать уведомления?" name="" class="btn btn-success">
+
+                    <script>
+                        function notifyMe () {
+                            var notification = new Notification ("Новые новости на сайте!", {
+                                tag : "ache-mail",
+                                body : "",
+                                icon : "../favicon.ico"
+                            });
+                        }
+
+
+                        function notifSet () {
+                            if (!("Notification" in widow))
+                                alert("Ваш браузер не поддерживает уведомления!");
+                            else if (Notification.permission == "granted")
+                                setTimeout(notifyMe, 2000);
+                            else if (Notification.permission !== "denied"){
+                                Notification.requestPermission (function (permission) {
+                                    if (!('permission' in Notification))
+                                        Notification.permission = permission;
+                                    if (permission === "granted")
+                                        setTimeout(notifyMe, 2000);
+                                   });
+                               }
+                            }
+                    </script>
      			</div>
      		</div>
      	</div>
