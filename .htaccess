@@ -15,3 +15,5 @@ AddDefaultCharset UNF-8
 RewriteRule ^index2?$ index2.html [NC,L]
 
 RewriteRule ^index3?$ index3.html [NC,L]
+
+RewriteRule ^index4?$ index4.html [NC,L]
