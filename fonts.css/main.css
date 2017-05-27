@@ -229,21 +229,7 @@ hr {
 	margin-left: 300px;
 }
 
-#cont{
-  width: 100%;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  height: 2px;
-  z-index: 9999;
-}
 
-#progress {
-  background: #ED5E42;
-  width: 0%;
-  height: 2px;
-
-}
 
 
 
