@@ -227,5 +227,23 @@ hr {
 	margin-top: 150px;
 	margin-bottom: 265px;
 	margin-left: 300px;
-	font-size: 30px;
 }
+
+#cont{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	height: 2px;
+}
+
+#progress {
+	background: #787878;
+	width: 0%;
+	
+}
+
+
+
+
+

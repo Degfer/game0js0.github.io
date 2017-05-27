@@ -15,6 +15,21 @@
 </head>
 
 <body>
+     
+     <div id="cont">
+        <div id="progress">
+            
+         </div>
+     </div>
+
+     <script>
+         $(window).scroll (function () {
+            var ratio = $(document).srollTop () / (($(document).height () - $(window).height () / 100);
+            $("#progress").width (ratio + "%");
+
+         });
+     </script>
+
 
 
      <div class="navbar navbar-inverse navbar-fixed-top">
@@ -175,7 +190,6 @@
     	</div>
     </div>
     
-
     <div id="podval">
         <div class="container">
             <div class="row centered">
