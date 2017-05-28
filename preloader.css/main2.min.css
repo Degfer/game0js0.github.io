@@ -14,5 +14,8 @@
    border: 10px solid white;
    border-radius: 50%;
    border-top-color: #42cef4;
-
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%;
 }
