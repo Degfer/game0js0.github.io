@@ -14,8 +14,26 @@
 	 <link rel="stylesheet" href="fonts.css/main.css">
      
 
-
+    
 	<title>Game.js</title>
+
+
+
+
+
+
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="nprogress/nprogress.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            NProgress.start();
+            setTimeout(function() {
+                NProgress.done();
+             }, 3000);
+        });
+    </script>
+
 </head>
 
 <body>
@@ -216,17 +234,6 @@
   $("#progress").width (ratio + "%");
 });
 </script>
-
-<script src="nprogress/nprogress.js"></script>
-    
-    <script>
-        $(document).ready(function(){
-            NProgress.start();
-            setTimeout(function() {
-                NProgress.done();
-             }, 3000);
-        });
-    </script>
 
 </body>
 
