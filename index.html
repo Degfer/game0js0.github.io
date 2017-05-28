@@ -222,10 +222,7 @@
     <script>
         $(document).ready(function(){
             NProgress.start();
-        });
-
-        $(window).load(function(){
-             setTimeout(function(){
+            setTimeout(function() {
                 NProgress.done();
              }, 3000);
         });
