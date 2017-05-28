@@ -6,6 +6,9 @@
    height: 100%;
    background: #2d2d2d;
    z-index: 9999;
+   transition: 1s all;
+   opacity: 1;
+
 }
 
 .loader {
@@ -20,6 +23,11 @@
    transform: translate(-50%, -50%;)
    animation: 1s spin infinite linear;
 }
+}
+
+&.done {
+   opacity: 0;
+   visibility: hidden;
 }
 
 akeyframes spin {
