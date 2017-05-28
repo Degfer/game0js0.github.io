@@ -7,21 +7,6 @@
 	 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	 <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
-    <link rel="stylesheet" href="nprogress/nprogress.css">
-    <script src="jquery/dist/jquery.min.js"></script>
-    <script src="nprogress/nprogress.js"></script>
-    
-    <script>
-        $(document).ready(function(){
-            NProgress.start();
-            setTimeout(function() {
-                NProgress.done();
-             }, 3000);
-        });
-    </script>
-
-
-
 	 <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
 	 <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 	 <link rel="stylesheet" href="fonts.css/main.css">
@@ -35,6 +20,13 @@
 </head>
 
 <body>
+
+     <div class="preloader">
+         <div class="loader">
+             
+         </div>
+     </div>
+
 
      <div id="cont">
              <div id="progress"></div>
