@@ -99,14 +99,14 @@ hr {
 
 #wrap h1 {
 	margin-top: 90px;
-	color: cyan;
+	color: #42cef4;
 	font-size: 60px;
 	font-weight: 300;
 	letter-spacing: 3px;
 }
 
 #wrap h2 {
-	color: cyan;
+	color: #42cef4;
 	font-size:  30px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
