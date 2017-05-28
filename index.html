@@ -207,8 +207,17 @@
 
 
     <script src="jquery/dist/jquery.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    
 
-    <script src="nprogress/nprogress.js"></script>
+    <script>
+  $(window).scroll (function () {
+  var ratio = $(document).scrollTop () / (($(document).height () - $(window).height ()) / 100);
+  $("#progress").width (ratio + "%");
+});
+</script>
+
+<script src="nprogress/nprogress.js"></script>
     
     <script>
         $(document).ready(function(){
@@ -219,16 +228,6 @@
             NProgress.done();
         });
     </script>
-
-    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-    
-
-    <script>
-  $(window).scroll (function () {
-  var ratio = $(document).scrollTop () / (($(document).height () - $(window).height ()) / 100);
-  $("#progress").width (ratio + "%");
-});
-</script>
 
 </body>
 
