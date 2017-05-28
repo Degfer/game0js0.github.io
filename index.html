@@ -225,7 +225,9 @@
         });
 
         $(window).load(function(){
-            NProgress.done();
+             setTimeout(function(){
+                NProgress.done();
+             }, 3000);
         });
     </script>
 
