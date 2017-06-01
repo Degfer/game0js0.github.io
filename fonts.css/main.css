@@ -99,17 +99,19 @@ hr {
 
 #wrap h1 {
 	margin-top: 90px;
-	color: #42cef4;
+	color: #fff;
 	font-size: 60px;
 	font-weight: 300;
 	letter-spacing: 3px;
+	background: #42cef4;
 }
 
 #wrap h2 {
-	color: #42cef4;
+	color: #fff;
 	font-size:  30px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
+	background: #42cef4;
 }
 
 .w br > h2 {
