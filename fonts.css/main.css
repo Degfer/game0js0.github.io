@@ -225,12 +225,6 @@ hr {
 	text-transform: uppercase;
 }
 
-#vk_contact_us {
-	margin-top: 150px;
-	margin-bottom: 265px;
-	margin-left: 300px;
-}
-
 #cont {
   width: 100%;
   position: fixed;
@@ -254,6 +248,15 @@ hr {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#05bcff', GradientType=1 );
 }
 
+#podder {
+	padding-top: 100px;
+}
+
+#error1 {
+	color: #f44242;
+	font-size: 300px;
+	margin-bottom: 100px;
+}
 
 
 
